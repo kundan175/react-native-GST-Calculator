@@ -50,7 +50,9 @@ const AboutScreen = () => {
           <TouchableOpacity
             style={styles.linkButton}
             onPress={() =>
-              openLink('https://www.gst.gov.in/about-us/privacy-policy')
+              openLink(
+                'https://www.barnardmedia.co.za/apps/gstcalculator/privacy',
+              )
             }>
             <Icon name="privacy-tip" size={24} color="#007AFF" />
             <Text style={styles.linkText}>Privacy Policy</Text>
@@ -60,7 +62,9 @@ const AboutScreen = () => {
           <TouchableOpacity
             style={styles.linkButton}
             onPress={() =>
-              openLink('https://www.gst.gov.in/about-us/terms-conditions')
+              openLink(
+                'https://www.barnardmedia.co.za/apps/gstcalculator/terms',
+              )
             }>
             <Icon name="description" size={24} color="#007AFF" />
             <Text style={styles.linkText}>Terms & Conditions</Text>
